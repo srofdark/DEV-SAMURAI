@@ -1,0 +1,83 @@
+LOGICA DE PROGRAMAÇÃO AVANÇADO 
+
+- Operadores
+
+    Soma +
+    Subtração -
+    Multiplicação *
+    Divisão /
+    Exponenciação **
+    Grupos ()
+
+- Variáveis
+
+    Variaveis são formas de armazenar dados na memória do computador.
+    Primeiro precisa indicar para o programa que precisamos criar um espaço de memória ou variável, na sequência o nome da variável (tirar pontos e caracteres especiais).
+    Exemplo IMC
+    var peso = x
+    var altura = x
+    var resultado = peso / (altura*altura)
+
+- Entrada de dados
+
+    Para entrar dados nas Variáveis precisamos utilizar o PROMPT, que seria uma caixa de digitação para o usuário digitar os dados necessários para fazer a conta com IMC.
+    Exemplo
+    var peso = prompt("digite seu peso, fração separada por PONTO");
+    var altura = prompt("digite sua altura em metros, fração separada por PONTO");
+    var resultado = peso / (altura*altura);
+
+    alert (resultado);
+
+- Tipos de dados
+
+    Booleanos (true / false)
+    Inteiros (1, 2, 3, ...)
+    Fração (1.2, 2.6, 3.3, ...)
+    Texto ("Algum texto")
+
+- Comparação 
+
+    Igual (==)
+    Diferente (!=)
+    Menor (<)
+    Maior (>)
+    Menor igual (<=)
+    Mario igual (>=)
+
+- Comparação lógica
+
+    Os booleanos possuem uma matemática própria, precisam dos seus próprios Operadores.
+
+    OU (||)
+    E (&&)
+    Não (!)
+
+    O comparador OU (||) resulta em true quando qualquer valor for verdadeiro. Caso contrário, resulta em false.
+
+    O comparador E (&&) retorna true apenas quando todos os valores são verdadeiros. Caso contrário, resulta em false.
+
+    O comparador Não (!) torna tudo que é true em false e vice versa.
+
+- Estruturas de decisão
+
+    Todo programa segue um fluxo de execução.
+    Se (condição verdadeira) faz algo, Se não faz outro.
+    O SE (IF) funciona como um bloco inteligente.
+
+    Exemplo
+
+        var idade_minima = 18
+        var idade_pessoa = 21
+
+        if (idade_pessoa >= idade_minima) {
+            alert ("acesso autorizado")
+        } else {
+            alert ("acesso não autorizado")
+        }
+
+- Função
+
+    Funções ajudam a organizar e centralizar códigos.
+        - Dividir e estruturar um algoritmo em partes logicamente coerentes.
+        - Facilitar o teste em trechos separados.
+        - Criar sua própria biblioteca.
